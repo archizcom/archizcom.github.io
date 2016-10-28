@@ -1,0 +1,171 @@
+  #g_title p, #g_footer p, #g_description p {
+    margin: 0;
+  }
+
+  /* 
+    fix ie6 "peekaboo bug" using the "holly hack". 
+    Note, this style only gets applied to ie6
+  */
+  * html .wrapper {
+    height: 0.1%;
+  }
+
+  /* 
+   * IE5 mac - overrides the IE/Win hack 
+   */
+
+  /*\*//*/
+
+  * html #threecolumn div {
+  	height: auto;
+  }
+
+  /**/
+
+
+  /* 
+   * IE5/Win-specific CSS -ensures #container wraps all content on window resize
+   */
+
+  @media tty {
+   i{content:"\";/*" "*/}} * html #container { height: 1%; } /*";}
+  }/* */
+  /* Styling for editable elements. Eventually, this will be part of the style. */
+  .editable {
+    border: 1px dashed blue;
+  }
+  
+  #footer {clear: both;
+
+  }
+  
+  /* Extra divs hidden by default. The custom CSS can override this though */
+  #extraDiv1, #extraDiv2, #extraDiv3, #extraDiv4, #extraDiv5, #extraDiv6 {
+    display: none;
+  }
+  
+  a img,:link img,:visited img {border: none;}
+
+  body {
+    text-align: center;
+  }
+  #container {
+    width: 718px;
+    text-align: left;
+    margin: 0 auto;
+  }
+  #main-content {
+    float: left;
+    display: inline; 
+    width: 470px;
+  }
+  #sidebar {
+    float: right;
+    display: inline;
+    width: 230px;
+  }
+  #footer {clear: both;
+
+  } 
+  /** BEGIN CUSTOM SKIN **/
+  /*
+
+  	-- -- -- -- -- -- --
+  	Base CSS
+  	-- -- -- -- -- -- --
+  	
+  	This file simply removes default styling on most HTML elements in 
+  	order to reduce the need to later override them.
+  	
+  */
+
+  h1,h2,h3,h4,h5,h6,pre,code,p {font-size: 1em;}
+  dl,li,dt,dd,h1,h2,h3,h4,h5,h6,pre,form,body,html,p,blockquote,fieldset,input {margin: 0; padding: 0;}
+  a img,:link img,:visited img {border: none;}
+  address {font-style: normal;}html {background:#fff;}
+  body {background:#fff;font-family:'Verdana','Helvetica', 'Arial', sans-serif;font-size:0.85em;}
+  a {color:#336699;text-decoration:none !important;}
+  a:link,a:visited {color:#336699;}
+  a:hover{color: #ff6600;}
+  b, strong {font-weight:bold;}
+  blockquote {border-left:1px solid #ccc;margin:1em 3em;padding-left:1em;font-size:0.9em;}
+  blockquote p {line-height:1.45em;}
+  em {font-style:italic;}
+  h1, h2, h3, h4, h5, h6 {font-weight:bold;margin:1.5em 0 0.5em 0;color:#ff6600;}
+  h1 {font-size:1.75em;margin:0;}
+  h2 {font-size:1.5em;}
+  h3 {font-size:1.25em;}
+  h4 {font-size:1.1em;}
+  h5 {font-size:0.85em;}
+  h6 {font-size:0.7em;}
+  hr {display:none;}
+  p, li {color:#333;line-height:1.75em;margin:0 0 1.5em 0;}
+  blockquote p, table p, dd p, li p, #header p {margin-bottom:0.5em;}
+  ul, ol {margin:1em 0; padding-left: 1.6em;}
+  li {margin:0.25em 0;}
+  ul li {list-style-type:disc;}
+  ol li {list-style-type:decimal;}
+  table {border:1px solid #ccc;border-width:1px 1px 0 1px;}
+  table caption {display:block;font-style:italic;white-space:nowrap;margin:0.5em 1em;}
+  table td, table th {padding:0.5em 1em;text-align:left;vertical-align:top;}
+  table th {font-weight:bold;border-bottom:1px solid #999;}
+  table td {border-bottom:1px solid #fff;}
+
+  dl {margin:1em;line-height:1.5em;list-style-type:disc;}
+  dt {font-weight:bold;margin-top:0.5em;}
+  dd {margin-left:2em;}
+
+  #adsense {text-align:center;}
+  #container {
+  	padding: 20px 35px 10px 35px; 
+  	border: 0px solid #ccc;
+  	background:#fff;
+  	margin:1em auto;
+  }
+  #footer {border-top:0px solid #336699;background:#fff;}
+  #header {border-bottom:0px solid #fff;margin-bottom:2em;background:#fff;}
+  #sidebar {background:#fff;font-size:1.0em;}
+  #sidebar :first-child {margin-top:0;}
+  #sidebar-alternate {font-size:1.0em;}
+  #sidebar-alternate :first-child {margin-top:0;}
+  #main-content {background:#fff;}
+  #main-content h2:first-child {margin-top:0;}	
+
+  @media print {
+    html {background:#fff !important;}
+    #container {border-width:0px !important;padding:0 !important;}
+  }
+
+  /* Tweaks for Three-column layout
+  ----------------------------------------------- */
+  #threecolumn #main-content .wrapper {padding:0 25px;}
+
+  /* Tweaks for Two-column Left layout
+  ----------------------------------------------- */
+  #twocolumn-left #main-content .wrapper {padding-left:25px;}
+
+  /* Tweaks for Two-column Right layout
+  ----------------------------------------------- */
+  #twocolumn-right #main-content .wrapper {padding-right:25px;}
+
+  /* Tweaks for Two-column Liquid layout
+  ----------------------------------------------- */
+  #twocolumn-liquid-right #container {margin:1em 1em;}
+  #twocolumn-liquid-right #main-content .wrapper {padding-right:25px;}
+  #twocolumn-liquid-left #container {margin:1em 1em;}
+  #twocolumn-liquid-left #main-content .wrapper {padding-left:25px;}
+
+  /* Tweaks for One-column Liquid layout
+  ----------------------------------------------- */
+
+  /* Tweaks for One-column layout
+  ----------------------------------------------- */
+  #onecolumn #main-content .wrapper {padding-left:0;}
+
+  /* ie5win */
+  @media tty { i{content:"\";/*" "*/}} * html #container { padding: 25px 0px 10px 10px; } /*";}
+  }/* */
+
+  /** END CUSTOM SKIN **/
+
+
