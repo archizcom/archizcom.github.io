@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="
+            http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/09/sitemap.xsd">
+
+<url>
+  <loc>http://www.archiz.com/</loc>
+  <priority>0.5</priority>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://www.archiz.com/portfolio.html</loc>
+  <priority>0.5</priority>
+  <lastmod>2007-01-21T09:23:14+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://www.archiz.com/request.html</loc>
+  <priority>0.5</priority>
+  <lastmod>2007-01-21T09:23:14+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://www.archiz.com/contact.html</loc>
+  <priority>0.5</priority>
+  <lastmod>2007-01-21T09:23:14+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://www.archiz.com/resources.html</loc>
+  <priority>0.5</priority>
+  <lastmod>2007-01-21T09:23:14+00:00</lastmod>
+  <changefreq>dayly</changefreq>
+</url>
+<url>
+  <loc>http://www.archiz.com/vstand.html</loc>
+  <priority>0.5</priority>
+  <lastmod>2007-01-21T09:23:14+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://www.archiz.com/vbird.html</loc>
+  <priority>0.5</priority>
+  <lastmod>2007-01-21T09:23:14+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://www.archiz.com/vinterior.html</loc>
+  <priority>0.5</priority>
+  <lastmod>2007-01-21T09:23:14+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://www.archiz.com/vplans.html</loc>
+  <priority>0.5</priority>
+  <lastmod>2007-01-21T09:23:14+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://www.archiz.com/vanimation.html</loc>
+  <priority>0.5</priority>
+  <lastmod>2007-01-21T09:23:14+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://www.archiz.com/vcad.html</loc>
+  <priority>0.5</priority>
+  <lastmod>2007-01-21T09:23:14+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+</urlset>
