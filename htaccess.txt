@@ -1,0 +1,6 @@
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^(www.)?archiz.com$
+RewriteCond %{HTTP_HOST} .
+RewriteCond %{HTTP_HOST} !^www\.archiz.com [NC]
+RewriteRule (.*) http://www.archiz.com/$1 [R=301,L]
+
